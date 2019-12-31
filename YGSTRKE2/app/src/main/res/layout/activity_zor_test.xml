@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ra.ygstrke.kolayTest"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="100dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <ViewFlipper
+            android:id="@+id/vf1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  1. Adı ustaya çıkmış yaşlı bir şairin bir zamandan sonra yazdığı her şiir bir öncekini aratıyorsa onun ustalığından günümüz şiir okuyucuları değil sadece edebiyat tarihçileri haberdar olacaklardır.\nBu cümlede sözü edilen şairler, niçin eleştirilmektedir?\n\nA) Yaşlı olmalarına karşın şiir yazmaya devam ettikleri için\nB) Şiirde imgeyi önemsemeyerek daha çok ahenk unsurları üzerinde durmaları için\nC) Bilgi ve birikimlerini genç şairlere aktarmadıkları için\nD) Bütün şiirlerinde aynı temalara değindikleri için\nE) Şiirlerinde nitelik bakımından ulaştıkları düzeyi koruyamadıkları için"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  1.Bu cümlede sözü edilen şairlerin eleştirilme nedeni, “bir zamandan sonra yazdığı her şiir bir öncekini aratıyorsa” sözünden de anlaşılacağı üzere “şiirlerinde nitelik bakımından ulaştıkları düzeyi koruyamamaları”dır.\nCevap: E"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  2.(I) Ziya Gökalp’in Malta sürgünü yıllarında arkadaşlarına verdiği felsefe dersleri notlarını bir araya getirdiği kendi el yazısıyla tutulmuş on iki defter, kaleme alınışından seksen beş yıl sonra kitaplaştı.\n (II) Ali Utku ve Erdoğan Erbay tarafından yayına hazırlanan “Felsefe Dersleri”, yakın dönem düşünce tarihimizin ve felsefe serüvenimizin en önemli belgesi niteliğinde.\n (III) Dokuz yüz yirmi iki sayfalık eser, sadeleştirme metoduyla hazırlanmış.\n (IV) Yayına hazırlayanlar, eserin girişine tanıtıcı bir yazı eklemiş.\n (V) Ziya Gökalp bu eserinde, felsefenin kavramsal tartışmaları hakkında kendi düşüncelerini ortaya koymuştur.\nBu parçanın yazarı numaralanmış cümlelerin hangisinde kişisel görüşlerini dile getirmiştir?\n\nA)I.  B) II. C) III. D) IV.  E)V."/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  2.Bu parçanın yazarı I, III, IV ve V. cümlelerde eserle ilgili bilgi verirken kişisel görüşlerini dile getirmemiş; II. cümlede ise “Felsefe Dersleri, yakın dönem düşünce tarihimizin ve felsefe serüvenimizin en önemli belgesi niteliğinde” diyerek kişisel görüşlerini ortaya koymuştur.\n\nCevap: B"/>
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  3. I. Gülmece anlayışı, evrensel nitelik taşımaz.\nII. Toplumların gülmece anlayışlarında benzerlikler vardır.\nIII. Bireyler, kendi uluslarının gülmece anlayışlarıyla yoğrulur.\nIV. Kültürel etkileşimler, ulusların gülmece anlayışlarını değiştirir.\nV. Her ulusun gülmece anlayışı kendine özgüdür.\nYukarıdaki cümlelerden hangileri anlamca birbirine en yakındır?\n\nA) I. ve II.\nB) I. ve V.\nC) II. ve III.\nD) III. ve IV.\nE) IV. ve V."/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  3. I. ve V. cümlelerde gülmece anlayışının, ulusa özgü olduğu, evrensellik taşımadığı anlatılmaktadır.\nCevap: B"/>
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  4. I. Sanatçı, eserini oluşturma sürecini geniş bir zamana yaymamalıdır.\nII. Sanatçı, eserini bir an önce yayımlama hevesinde olmalıdır.\nIII. Sanatçı, eserini yayımlarken zorlu bir süreçten geçeceğini bilmelidir.\nIV. Sanatçı, mükemmeli aramalı; eserini buna göre oluşturmalıdır.\nV. Sanatçı, sabırlı olmayı bilmeli; yapıtını basılı görme hırsıyla hareket etmemelidir.\nNumaralanmış cümlelerden hangileri anlamca çelişmektedir?\n\nA) I. ve II.\nB) III. ve IV.\nC) IV. ve V.\nD) I. ve III.\nE) II. ve V."/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  4.II. cümlede, sanatçının eserini bir an önce yayımlaması gerektiği vurgulanıyor. V. cümlede ise sanatçının sabırlı olması, yapıtını yayımlamak için acele etmemesi gerektiği vurgulanıyor. Dolayısıyla bu cümleler anlamca çelişmektedir.\nCevap: E"/>
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  5. Aşağıdaki cümlelerden hangisinde bir yazım yanlışı vardır?\n\nA) Onun şiirlerini ilk okuduğumda on beş yaşımdaydım sanırım.\nB) Ömer Türkeş, yazılarına sık sık baş vurduğum, önemli eleştirmenlerimizdendir.\nC) Kitabın yayımlanışının ellinci yılında  2007’de yeniden hatırlandı yazar.\nD) Hiçbir romanı onu böyle heyecanlandırmamıştı.\nE) Bundan tam elli yıl önce, 1949’da okurun karşısına çıktı “Huzur”."/>
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  5.II. cümlede, sanatçının eserini bir an önce yayımlaması gerektiği vurgulanıyor. V. cümlede ise sanatçının sabırlı olması, yapıtını yayımlamak için acele etmemesi gerektiği vurgulanıyor. Dolayısıyla bu cümleler anlamca çelişmektedir.\nCevap: E"/>
+
+
+        </ViewFlipper>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGeri"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="Geri" />
+
+        <Button
+            android:id="@+id/btnİleri"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="İleri" />
+
+        <Button
+            android:id="@+id/btnOtomatik"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Otomatik" />
+
+    </LinearLayout>
+</LinearLayout>

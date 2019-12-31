@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Ogretmen_Activity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/actionbar_app" android:id="@+id/actionBar"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/teacher_menu"
+        android:gravity="center"
+        android:layout_marginTop="58dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="27dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/btnstudentlist"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="@string/student_list"
+            android:textColor="@color/colorBlack"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/btnstudentfoodlist"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="@string/food_list"
+            android:textColor="@color/colorBlack"
+            android:textSize="17dp"
+            android:layout_marginLeft="200dp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btnstudentlist"
+            android:text=""
+            android:textColor="@color/colorBlack"
+            android:textSize="17dp"/>
+
+
+    </RelativeLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+</RelativeLayout>

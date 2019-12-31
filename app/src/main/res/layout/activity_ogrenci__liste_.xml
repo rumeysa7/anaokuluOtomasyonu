@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ogrenci_Liste_Activity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarlogin"/>
+    <TextView
+        android:id="@+id/txt_Student_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionbarlogin"
+        android:layout_marginTop="10dp"
+        android:text="Öğrenci Listesi"
+        android:textColor="@color/colorBlack"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/txt_student_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_Student_list"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Öğrenci No"
+        android:textColor="@color/colorBlack"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txt_Student_list"
+        android:layout_marginLeft="120dp"
+        android:text="Adı Soyadı"
+        android:textColor="@color/colorBlack"
+        android:textSize="16dp" />
+
+    <ListView
+        android:id="@+id/student_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_student_no"
+        android:layout_marginTop="8dp"
+        android:padding="3dp"/>
+
+</RelativeLayout>

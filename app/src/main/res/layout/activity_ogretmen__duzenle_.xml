@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ogretmen_Duzenle_Activity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarlogin"/>
+
+    <TextView
+        android:id="@+id/txtTeacherEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="@string/teacher_edit"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtTeacherEdit"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <EditText
+            android:id="@+id/txtTeacherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/teacher_name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/txtTeacherSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/teacher_surname"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/txtTeacherPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/teacher_phone"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/txtTeacherEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/teacher_mail"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/txtTeacherClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/teacher_class"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/txtTeacherTcNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/teacher_tc"
+            android:maxLength="11"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btnTeacherUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorRedButton"
+            android:text="@string/teacher_update"
+            android:textSize="20dp"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

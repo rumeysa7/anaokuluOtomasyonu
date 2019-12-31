@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ra.ygstrke">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/zeki"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".SozcukAnlami" />
+        <activity android:name=".SozYorumu" />
+        <activity android:name=".DeyimAtasozu" />
+        <activity android:name=".CumleAnlami" />
+        <activity android:name=".CumleYorumu" />
+        <activity android:name=".AnlatimTeknikleri" />
+        <activity android:name=".AnaDusunce" />
+        <activity android:name=".Yapi" />
+        <activity android:name=".YardimciDusunce" />
+        <activity android:name=".SesBilgisi" />
+        <activity android:name=".YazimKurallari" />
+        <activity android:name=".NoktalamaIsaretleri" />
+        <activity android:name=".SozcugunYapisi" />
+        <activity android:name=".SozcukTurleri" />
+        <activity android:name=".Fiiller" />
+        <activity android:name=".SozcukGruplari" />
+        <activity android:name=".CumleninOgeleri" />
+        <activity android:name=".CumleTurleri" />
+        <activity android:name=".AnlatimBozuklugu" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".kolayTest" />
+        <activity android:name=".ortaTest" />
+        <activity android:name=".zorTest">
+        </activity>
+    </application>
+
+</manifest>

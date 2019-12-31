@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ogrenci_Ekle_Activity">
+
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarlogin"/>
+
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        android:padding="8dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/actionbarlogin"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="9dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_info"
+                android:textSize="25dp"
+                android:textColor="@color/colorBlack"/>
+
+            <EditText
+                android:id="@+id/txtStudentNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="@string/student_no"
+                android:hint="@string/student_no"
+                android:inputType="number"
+                android:layout_marginTop="9dp"/>
+
+            <EditText
+                android:id="@+id/txtStudentName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="@string/name"
+                android:hint="@string/name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtStudentSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/surname"
+                android:hint="@string/surname"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtStudentTc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_tc"
+                android:hint="@string/student_tc"
+                android:inputType="number"
+                android:maxLength="11"/>
+
+            <EditText
+                android:id="@+id/txtStudentParent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_parent_1"
+                android:hint="@string/student_parent_1"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtStudentParent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_parent_2"
+                android:hint="@string/student_parent_2"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtStudentHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_height"
+                android:hint="@string/student_height"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtStudentWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_weight"
+                android:hint="@string/student_weight"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtStudentBirthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_birthday"
+                android:hint="@string/student_birthday"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/txtStudentClass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_class"
+                android:hint="@string/student_class"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtStudentTeacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_teacher"
+                android:hint="@string/student_teacher"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtStudentMedicine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_medicine"
+                android:hint="@string/student_medicine"
+                android:inputType="text" />
+
+            <CheckBox
+                android:id="@+id/parent_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/parent_check" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/parent_info"
+                android:textSize="25dp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/txtParentName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/name"
+                android:hint="@string/name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtParentSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/surname"
+                android:hint="@string/surname"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtParentPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/tel"
+                android:hint="@string/tel"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/txtParentMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/email"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/txtParentPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/passwordd"
+                android:hint="@string/passwordd"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/txtParentAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/address"
+                android:hint="@string/address"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtParentChildName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_name"
+                android:hint="@string/student_name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtParentChildSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_surname"
+                android:hint="@string/student_surname"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtParentChildNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/parent_child_no"
+                android:hint="@string/parent_child_no"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/txtParentTc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/parent_tc"
+                android:hint="@string/parent_tc"
+                android:inputType="number"
+                android:maxLength="11"/>
+
+            <TextView
+                android:id="@+id/textParent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/parent_info_2"
+                android:textSize="25dp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/txtParentName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/name"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txtParentSurname2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/surname"
+                android:hint="@string/surname"
+                android:inputType="text"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txtParentPhone2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/tel"
+                android:hint="@string/tel"
+                android:inputType="phone"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txtParentMail2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/email"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txtParentPassword2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/passwordd"
+                android:hint="@string/passwordd"
+                android:inputType="textPassword"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txtParentAddress2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/address"
+                android:hint="@string/address"
+                android:inputType="text"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txtParentChildName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_name"
+                android:hint="@string/student_name"
+                android:inputType="text"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txtParentChildSurname2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/student_surname"
+                android:hint="@string/student_surname"
+                android:inputType="text"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txtParentChildNo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/parent_child_no"
+                android:hint="@string/parent_child_no"
+                android:inputType="number"
+                android:enabled="false"/>
+
+            <EditText
+                android:id="@+id/txtParentTc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:autofillHints="@string/parent_tc"
+                android:hint="@string/parent_tc"
+                android:inputType="number"
+                android:maxLength="11"
+                android:enabled="false"/>
+
+            <Button
+                android:id="@+id/btnAddStudent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorRedButton"
+                android:text="@string/add_student"
+                android:textSize="19dp"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

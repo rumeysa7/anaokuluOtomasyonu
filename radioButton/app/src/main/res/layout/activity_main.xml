@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<relativelayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+
+    <textview android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignleft="@+id/checkBox1" android:layout_alignparenttop="true" android:layout_marginleft="14dp" android:layout_margintop="20dp" android:text="Hangi Kursa Katılmak İstersiniz?" android:textsize="@dimen/activity_horizontal_margin">
+
+        <radiogroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignleft="@+id/textView1" android:layout_below="@+id/textView1">
+
+            <radiobutton android:id="@+id/radioButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/textView1" android:layout_margintop="20dp" android:text="Android">
+
+                <radiobutton android:id="@+id/radioButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignleft="@+id/radioButton1" android:layout_below="@+id/radioButton1" android:layout_margintop="25dp" android:text="Pyhton">
+
+                    <radiobutton android:id="@+id/radioButton3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignleft="@+id/radioButton2" android:layout_below="@+id/radioButton2" android:layout_margintop="25dp" android:text="C#">
+
+                        <radiobutton android:id="@+id/radioButton4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignleft="@+id/radioButton3" android:layout_below="@+id/radioButton3" android:layout_margintop="25dp" android:text="Matlab">
+
+                        </radiobutton></radiobutton></radiobutton></radiobutton></radiogroup>
+
+        <button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignleft="@+id/textView1" android:layout_below="@+id/radioGroup1" android:text="Gönder">
+
+        </button></textview></relativelayout>

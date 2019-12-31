@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Etkinlik_Duzenle_Activity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarlogin"/>
+    <TextView
+        android:id="@+id/txtActivityList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/actionbarlogin"
+        android:layout_marginTop="10dp"
+        android:text="@string/d_zenlemek_istedi_iniz_etkinli_i_se_iniz"
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+
+    <ListView
+        android:id="@+id/activity_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtActivityList"
+        android:layout_marginTop="8dp"
+        android:padding="3dp"/>
+
+
+
+
+</RelativeLayout>

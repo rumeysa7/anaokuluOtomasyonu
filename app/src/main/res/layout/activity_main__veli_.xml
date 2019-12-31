@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Veli_Activity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/actionbar_app" android:id="@+id/actionBar"/>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/parent_menu"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="27sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEvents"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="@string/events"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/btnFoodList"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="@string/food_list"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+</RelativeLayout>

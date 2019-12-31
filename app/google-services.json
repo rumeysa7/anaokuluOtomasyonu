@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "165003632143",
+    "firebase_url": "https://anaokuluotomasyonu.firebaseio.com",
+    "project_id": "anaokuluotomasyonu",
+    "storage_bucket": "anaokuluotomasyonu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165003632143:android:9da5aafa3c3449852ccd7a",
+        "android_client_info": {
+          "package_name": "com.example.anaokuluotomasyonu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165003632143-38qef6udf7qnouh3u0toeauta8r6n7bl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anaokuluotomasyonu",
+            "certificate_hash": "6910c57a29bbb60f35539f60b64f0996f279cc7f"
+          }
+        },
+        {
+          "client_id": "165003632143-dvu303un3skjl1gis8uqlhov2p82s4ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgy_vnbJvMCxl18IkwwEvCMjLCbhpq7FI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165003632143-dvu303un3skjl1gis8uqlhov2p82s4ge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

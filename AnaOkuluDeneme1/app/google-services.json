@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "69390587964",
+    "firebase_url": "https://anaokuludeneme1.firebaseio.com",
+    "project_id": "anaokuludeneme1",
+    "storage_bucket": "anaokuludeneme1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69390587964:android:4856817cbffe3c66cbcb39",
+        "android_client_info": {
+          "package_name": "com.example.anaokuludeneme1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69390587964-crc4u25vhmoj9cod51vdp1cv7he0al89.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anaokuludeneme1",
+            "certificate_hash": "1d7fdbcd193da63c4b8b9713bc5718255b3ae925"
+          }
+        },
+        {
+          "client_id": "69390587964-5vq5udv6ka8jfdbfc166d18k33macgva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0EcJtgaPeU4EpOnPm0qk1b3_Lhq9uZvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69390587964-5vq5udv6ka8jfdbfc166d18k33macgva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

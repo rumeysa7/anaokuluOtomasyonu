@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuOgretmenEkle"
+        android:title="@string/add_teacher"
+        app:showAsAction="never"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menuMudurEtkinlikEkle"
+        android:title="@string/add_activity"
+        app:showAsAction="never"
+        >
+    </item>
+
+    <item
+        android:id="@+id/mainMudurLogout"
+        android:title="@string/logout"
+        app:showAsAction="never"
+        >
+    </item>
+
+
+
+</menu>

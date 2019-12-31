@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.app.chasebank"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:text="this text will only appear in the layout editor">
+
+    <item
+        android:id="@+id/menuOgrenciEkle"
+        android:title="@string/add_student"
+        app:showAsAction="never"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menuYemekEkle"
+        android:title="@string/add_eat"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id="@+id/menuEtkinlikEkle"
+        android:title="@string/add_activity"
+        app:showAsAction="never"
+        >
+    </item>
+
+    <item
+        android:id="@+id/mainLogout"
+        android:title="@string/logout"
+        app:showAsAction="never"
+        >
+    </item>
+
+</menu>

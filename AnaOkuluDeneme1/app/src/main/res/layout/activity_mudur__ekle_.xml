@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mudur_Ekle_Activity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarlogin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarlogin"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/manager_register"
+            android:textSize="27dp"
+            android:textColor="@color/colorBlack"/>
+
+        <EditText
+            android:id="@+id/txtManagerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/name"
+            android:autofillHints="@string/name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/txtManagerSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/surname"
+            android:autofillHints="@string/surname"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/txtManagerNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/tel"
+            android:autofillHints="@string/tel"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/txtManagerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/email"
+            android:autofillHints="@string/email"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/txtManagerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/passwordd"
+            android:autofillHints="@string/passwordd"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/txtManagerTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/manager_task"
+            android:autofillHints="@string/manager_task"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/txtManagerTc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/manager_Tc"
+            android:autofillHints="@string/manager_Tc"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnAddManager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorRedButton"
+            android:text="@string/create_new_account"
+            android:textSize="19dp"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

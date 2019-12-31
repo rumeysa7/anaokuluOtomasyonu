@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ra.ygstrke.kolayTest"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="100dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <ViewFlipper
+            android:id="@+id/vf1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  1.Çobanların dumana boğulmuş ve iplik iplik yağan yağmurla yıkanmış çadırları; su basan arazide, kızarmış çayırlarda, kapkara yığın gibi duruyordu.\nBu cümlede aşağıdakilerden hangisi yoktur?\n\nA) Zamir\nB) Sıfat-fiil grubu\nC) Edat grubu\nD) Bağlaç\nE) Tekrar grubu"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  1.“Çobanlarının dumana boğulmuş ve yağmurla yıkanmış çadırları, su basan arazide” sözcük gruplarında altı çizili sözler, sıfat-fiil grubudur.”kapkara yığın gibi” söz grubu “gibi” edatıyla oluşturulmuş bir edat grubudur. “ve” sözcüğü bağlaçtır. “iplik iplik” sözü tekrar grubudur. Bu cümlede, zamir kullanılmamıştır.\n\nCevap: A"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  2.(I) Anadolu’nun en renkli çarşılarından biridir Gaziantep Çarşısı; (II) Alev alev baharatlar, parıltılı bakırlar, mavi mor kırmızı ipekler, kan kırmızısı yemeniler… (III) Bunlara bir de geleneksel Antep evlerinin renkli kapıları, üzerine resimler yapılmış duvarları, yaşama alanına dönüşmüş avluları eklenince sokaklar sahiden cümbüş yeri olur. (IV) Renklere tutkun biriyseniz kimseler koparamaz oradan sizi. (V) Çarşının girişinde metallerin parlaklığı alır gözünüzü.\nBu parçadaki numaralanmış cümlelerle ilgili olarak aşağıda verilenlerden hangisi yanlıştır?\n\nA) I. cümle üç ögeli bir isim cümlesidir.\nB) II. cümle sıfat tamlamalarından oluşan eksiltili bir cümledir.\nC) III. cümle olumlu-kurallı-birleşik bir fiil cümlesidir.\nD) IV. cümle devrik bir fiil cümlesidir.\nE) V. cümle dolaylı tümleç, özne ve yüklemden oluşmuş bir fiil cümlesidir."/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  2.Bu parçadaki numaralanmış cümlelerle ilgili olarak B, C, D ve E’de verilenler doğru; A’da verilenler yanlıştır.Bu parçanın I. cümlesi üç değil, iki öğelidir:\nÖzne: Gaziantep Çarşısı\nYüklem: Anadolu’nun en renkli çarşılarından biridir\nCevap: A"/>
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  3.Aşağıdaki cümlelerin hangisinde bir anlatım bozukluğu vardır?\n\nA) Sartre da bazı Fransız yazarların yeteneklerini yitirdiklerinden söz ediyor.\nB) Daha önce bir dergide okuduğum o yazı, beni yine etkiledi.\nC) Hikâyelerimi yazarken kendimi bir okurun yerine koyarak yazıyorum.\nD) Yazar, Türk edebiyatının en önemli öykücüleri arasında yer alıyor.\nE) Onunla, başarılı öğrencilerin ödüllendirildiği bir törende tanıştım."/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  3.C seçeneğindeki cümlede gereksiz bağ-fiil kullanılmasından kaynaklanan bir anlatım bozukluğu vardır. “Hikayelerimi yazarken kendimi bir okurun yerine koyarak yazıyorum.” cümlesinde “yazarken” bağ-fiili cümleden çıkarılarak anlatım bozukluğu giderilir.\nCevap: C"/>
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  4.Seine Nehri, kırışıksız, pürüzsüz sabah güneşiyle neşeli akıyordu. Yer yer kızıla çalan güzel, geniş, uzun bir gümüş şerit gibiydi. Nehrin öteki yakasına sıralanmış ulu ağaçlar, tüm kıyı üzerine koca bir yeşillik duvarı örmüş, dallarındaki kuşların şarkılarını dinliyordu. Her gün yeniden başlayan yaşam heyecanı yapraklarda ürperiyor, havada kıpırdıyordu.\n
+Bu parçanın anlatımında aşağıdakilerden hangisi yoktur?\n\nA) Doğayı kişileştirme\nB) Karşıt anlamlı sözcükleri bir arada kullanma\nC) Benzetmeye başvurma\nD) Betimleyici öğelerden yararlanma\nE) Üçüncü kişili anlatımla oluşturulma"/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  4.Nehrin neşesi, kuşların şarkı söylemesi, ağaçların kuşların şarkılarını dinlemesi kişileştirme öğeleridir (A). Nehir gümüş bir şeride benzetilmiştir (C). Nehrin görünüşüyle ilgili ayrıntılara yer verilmiştir (D). Parçayı oluşturan cümlelerin yüklemleri üçüncü kişiyi karşıladığı için parça, üçüncü kişili anlatımla (E). Parçada karşıt anlamlı sözcükler bir arada kullanılmamıştır.\nCevap: B"/>
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  5.Geçim koşullarının ağırlaştığı bölgelerde köylüler, gündeliklerin yüksek olduğunu duydukları şehirlere çalışmak için gelmektedirler. Köyde geçim koşullarının ağırlaşması, tarlaların yetersizliği ve verimsizliği ile ilgilidir. Kuraklık, ürünlerin zarar görmesi, hayvan hastalıkları gibi sebepler güçlükleri daha da artırmaktadır.\nBu parçanın konusu aşağıdakilerden hangisidir?\n\nA) Geçim koşulları\nB) Köylülerin yaşamı\nC) Şehirlerde gündelikler\nD) Geçim zorluklarının nedenleri\nE) Köyden kente göçün nedenleri"/>
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  5.Parçada köylülerin geçim zorlukları nedeniyle kente göçleri anlatılıyor. Köyden kente göçün nedenleri üzerinde duruluyor.\nCevap: E"/>
+        </ViewFlipper>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGeri"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="Geri" />
+
+        <Button
+            android:id="@+id/btnİleri"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="İleri" />
+
+        <Button
+            android:id="@+id/btnOtomatik"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Otomatik" />
+    </LinearLayout>
+</LinearLayout>
+

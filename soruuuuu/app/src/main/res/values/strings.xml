@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">soruuuuu</string>
+    <string name="hangi_kursa_kat_lmak_stersiniz" />
+    <string name="android" />
+    <string name="pyhton" />
+    <string name="c" />
+    <string name="matlab" />
+    <string name="g_nder" />
+</resources>

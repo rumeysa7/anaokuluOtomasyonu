@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Veli_Giris_Activity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarlogin"/>
+
+    <TextView
+        android:id="@+id/txtWelcomeAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/parent"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/actionbarlogin"
+        android:textSize="25sp" />
+
+
+    <ImageView
+        android:id="@+id/teacherImage"
+        android:layout_width="145dp"
+        android:layout_height="123dp"
+        android:layout_below="@id/txtWelcomeAppName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/teacher"
+        android:src="@drawable/graduate" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/teacherImage"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/txtInfo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_with_your_account"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="4dp"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/txtVeliMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:autofillHints="@string/email"/>
+
+        <EditText
+            android:id="@+id/txtVeliPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/passwordd"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:autofillHints="@string/password"/>
+
+        <Button
+            android:id="@+id/btnVeliLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorRedButton"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Yemek_Listesi_Duzenle_Activity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/actionbar_app" android:id="@+id/actionBar"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/txtFoodList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/food_list"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18pt"
+        android:layout_marginTop="65dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtFoodList"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/txtDay"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:text="@string/days"
+            android:textColor="@color/colorBlack"
+            android:textSize="11pt"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spDay"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="100dp"/>
+
+        <TextView
+            android:id="@+id/txtFood1"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtDay"
+            android:text="@string/food1"
+            android:textColor="@color/colorBlack"
+            android:textSize="11pt"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edtFood1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/spDay"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="130dp"
+            android:hint="Yemek 1"
+            android:inputType="text"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txtFood2"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtFood1"
+            android:text="@string/food2"
+            android:textColor="@color/colorBlack"
+            android:textSize="11pt"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edtFood2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/edtFood1"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="130dp"
+            android:hint="Yemek 2"
+            android:inputType="text"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txtFruit"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtFood2"
+            android:text="@string/fruit"
+            android:textColor="@color/colorBlack"
+            android:textSize="11pt"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edtFruit"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/edtFood2"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="130dp"
+            android:hint="Meyve"
+            android:inputType="text"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txtDrink"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtFruit"
+            android:text="@string/drink"
+            android:textColor="@color/colorBlack"
+            android:textSize="11pt"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edtDrink"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/edtFruit"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="130dp"
+            android:hint="İçecek"
+            android:inputType="text"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/edtDrink"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/save"
+            android:textColor="@color/colorBlack"
+            android:textSize="12pt"/>
+
+        <Button
+            android:id="@+id/btnFoodList"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/btnSave"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/food_list"
+            android:textColor="@color/colorBlack"
+            android:textSize="12pt"/>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

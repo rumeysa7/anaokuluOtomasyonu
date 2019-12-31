@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ra.ygstrke.kolayTest"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="100dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <ViewFlipper
+            android:id="@+id/vf1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  1. Anlattıklarında dişe dokunur bir şey yoktu.\nBu cümledeki altı çizili deyimin anlamı, aşağıdakilerden hangisinde vardır?\n\nA) Çok yorulduk ama işleri bitiremedik.\nB) Bu yazıda da önemli bir açıklama yapılmamış.\nC) Değer verdiğin insanlara böyle mi davranırsın?\nD) Konuyu tüm ayrıntılarıyla anlatmanı istiyorum.\nE) Ona kimse zorla bir iş yaptıramaz." />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  1. “Dişe dokunur” deyimi; önemli, sözü edilmeye değer, işe yarar anlamlarında kullanılır. B seçeneğindeki “önemli bir açıklama” sözünde bu anlam vardır.\nCevap: B" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.‘Türkçenin Eksiklikleri” adlı iki dolgun yazıda Reşat Nuri Güntekin, Avrupa dillerindeki birçok sözcüğün bizde karşılığı olmamasından yakınmış, çevirmenlerimizin bu yüzden bazı sıkıntılar çektiklerini dile getirmiş. İlgi ile okuduğum bu iki yazı dertlerimi tazeledi.\nBu parçadaki altı çizili söz yerine aşağıdakilerden hangisi getirilebilir?\n\nA) Sıkıntılarımı yeniden aklıma getirdi.\nB) Yaşadığım önemli olayları hatırlattı.\nC) Anılarımı tazelememe yardım etti.\nD) Ayrıntıları görmemi sağladı.\nE) Olgunlaşmama yardımcı oldu." />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  2. Parçada “dertlerimi tazeledi” sözüyle acı veren durumların, olayların hatırlatılması anlatılmaktadır.\nCevap: A" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  3.Gerçek yazarlığın onca yazı kalabalığının ardından kendini göstermeye başlaması, yazarın kendi sesini bulduğunu gösterir. Çünkü gerçek yazarlık, hiçbir zaman ödünç seslere yaslanarak varlığını ortaya koyamaz.\nBu parçada geçen “ödünç seslere yaslanma” sözüyle anlatılmak istenen aşağıdakilerden hangisidir?\n\nA) Okuyucuyu düşünmeme\nB) Başkalarını taklit etme\nC) Okuyucularda olumsuz bir izlenim bırakma\nD) Farklı türlerde eserler verme\nE) Söz kalabalığından uzak durma" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  3. “Ödünç seslere yaslanma” sözü ile başkasının izinden gitme, kendi yolunu çizememe, “başkalarını taklit etme” anlatılmaktadır.\nCevap:B" />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  4. (I) Konusu ne olursa olsun her makale bir düşünce ürünüdür.\n(II) Makalede, düşüncenin okura olabildiğince açık bir yolla aktarılması gerekir.\n (III) Bu nedenle makalede nesnel, yalın ve özlü bir üslup kullanılmalıdır.\n (IV) Düşüncenin önüne geçen söz oyunlarına başvurmak, makale türünün amacıyla bağdaşmaz.\n (V) Bu özellikleri taşımayan yazılara makale denmez.\nMakalenin ele alındığı bu parçada numaralanmış cümlelerle ilgili olarak aşağıda verilenlerden hangisi yanlıştır?\n\nA) I. cümlede düşünce ürünü olduğundan söz edilmiştir.\nB) II. cümlede bilimsel bir dille yazılması gerektiği belirtilmiştir.\nC) III. cümlede anlatım özellikleri üzerinde durulmuştur.\nD) IV. cümlede oluşturulma amacına ters düşecek bir durumdan söz edilmiştir.\nE) V. cümlede kesinlik söz konusudur." />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  4. II. cümlede makalelerin okura açık bir yolla aktarılması anlatılmıştır. B seçeneğinde ise II. cümlede makalelerin gereksinimleri karşılamadığı belirtilmiştir.\nCevap:B" />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Aşağıdakilerin hangisinde, sanatçıya ilişkin açıklamayla ayraç içinde verilen nitelik birbiriyle uyuşmamaktadır?\n\nA) Bu yazar, daha önce ben bunları bir yerlerden duymuştum demenize fırsat vermeyen metinler üretiyor, (özgünlük ve yaratıcılık)\nB) Üç dizenin arkasına koskoca bir destanın anlamını gizleyen bir sanatçıyla karşı karşıyayız. (özlülük)\nC) Romancının olay örgüsü ve karakter yaratmadaki başarısı, romandan hiç anlamayan insanların bile dikkatini çekiyor, (evrensellik)\nD) Onun romanlarını okurken “Hadi canım, böyle şey olur mu, böyle bir adam bu şekilde konuşabilir mi?” diyebileceğiniz tek bir cümleye bile rastlayamazsınız, (gerçekçilik ve doğallık)\nE) İnce deyişleriyle ölümsüzlüğün sihirli iksirini bulan bu şair, kuşaktan kuşağa aktarılan dizeleriyle geleceğe göz kırpıyor, (kalıcılık)" />
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Bu parçadaki numaralanmış cümlelerle ilgili olarak A, C, D ve E seçeneklerinde verilenler doğrudur. B seçeneğinde makalenin bilimsel bir dille yazılması gerektiği belirtilmiştir. II. cümlede geçen “düşüncenin okura olabildiğince açık bir yolla aktarılması gerekir” ifadesinden makalenin bilimsel bir dille yazılması gerektiği anlamı çıkmaz.\nCevap: B" />
+
+
+
+        </ViewFlipper>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGeri"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="Geri" />
+
+        <Button
+            android:id="@+id/btnİleri"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="İleri" />
+
+        <Button
+            android:id="@+id/btnOtomatik"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Otomatik" />
+
+    </LinearLayout>
+
+</LinearLayout>
